@@ -72,7 +72,6 @@ class Lab4RingTopo(Topo):
         self.addLink(s1, s2, **core_link)
         self.addLink(s2, s3, **core_link)
         self.addLink(s3, s4, **core_link)
-        self.addLink(s4, s1, **core_link)
 
 
 def run(controller_ip="127.0.0.1", controller_port=6653):
